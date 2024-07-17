@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-color:  rgb(80, 71, 71); */
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color:  black;
+    
+}    
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style: none;
+    margin: 0 23px;
+    color: orange
+}
+li:hover{
+    cursor: pointer;
+    color: orangered;
+}
+nav .left{
+    font-size: 2rem;
+}
+
+.about{
+   margin: 25px;
+   margin-top: 150px;
+   margin-left: 65px;
+
+}
+
+.about img{
+width: 25vw;
+height: 45vh;
+float: right;
+border-radius: 30px;
+margin-top: -240px;
+margin-right: 250px;
+}
+
+
+.about span{
+    color: orange;
+    font-size: 35px;
+}
+
+.about div{
+    margin: 10px;
+    font-size: 25px;
+    margin-left: 3px;
+    color: grey;
+}
+
+hr{
+    margin: 85px;
+    margin-top: 125px;
+    border-color: rgb(24, 17, 17);
+}
+
+.Ab2 h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+}
+
+.Ab2 p{
+    margin-left: 65px;
+    color: grey;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.Skills h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+
+}
+
+.Skills div{
+    margin-left: 65px;
+    color: grey;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.projects h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+}
+
+.projects div{
+    margin-left: 65px;
+    color: grey;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.unique{
+    font-size: 30px;
+    font-weight: bold;
+    color: orangered;
+}
+
+.resume h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+}
+
+.resume img{
+    margin-left: 450px;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 5px;
+    padding-top: 10px;
+}
+
+.contactme h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+}
+
+.icons ul li img{
+    width: 45px;
+    display: flex
+    
+    
+    
+}
+
+.icons ul li{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    list-style: none;
+    font-size: 20px;
+    color: grey;
+    text-align: center;
+
+
+}
+
+.phone{
+    margin-left: -117px;
+}
+
+.github{
+    margin-left: 280px;
+}
+.link{
+    margin-left: 128px;
+}
+
+.experience h1{
+    font-size: 2.5rem;
+    margin-left: 80px;
+    color: orange;
+}
+
+.experience h3{
+    margin-left: 80px;
+}
+
+.experience li{
+    margin-left: 90px;
+    padding: 10px;
+}
+
+.experience img{
+    width: 30vw;
+    float: right;
+    margin-right: 95px;
+    margin-top: -300px;
+    border-radius: 20px;
+}
+
+footer{
+    margin-top: 45px;
+}
+
+    
